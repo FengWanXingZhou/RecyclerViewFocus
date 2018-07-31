@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="200dip"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <wang.jason.recyclerviewfocus.view.ui.RecyclerviewAListView
+            android:id="@+id/rvALsitView"
+            android:layout_width="250dip"
+            android:layout_height="250dip">
+
+        </wang.jason.recyclerviewfocus.view.ui.RecyclerviewAListView>
+        <wang.jason.recyclerviewfocus.view.ui.RecyclerviewBListView
+            android:id="@+id/rvBLsitView"
+            android:layout_width="250dip"
+            android:layout_height="250dip">
+
+        </wang.jason.recyclerviewfocus.view.ui.RecyclerviewBListView>
+    </LinearLayout>
+
+
+</LinearLayout>
